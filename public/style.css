@@ -12,3 +12,17 @@ h1 {
 
 
 
+/*  ok,so. do the grid-template-areas thing where you can make the boxes out of words. 
+make boxes with grid-area: thingy and then "thingy" will be the box you want
+then do something like 
+
+title title
+me  jump_menu
+me  jump_menu
+business  words1
+CYOA  words2
+Garden  words3
+
+and it'll work like magic and you'll have boxes. and you can space the margins
+in percentages so that it shrinks and grows better. yippee!
+*/
