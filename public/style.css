@@ -11,6 +11,22 @@ h1 {
 
 
 
+.pan_pink {
+  background-color: #F62089
+}
+
+.yellow {
+  background-color: #F7D100
+}
+
+.blue {
+  background-color: #21ABF7
+}
+
+.pink {
+  background-color: hotpink;
+  color: #F62089
+}
 
 /*  ok,so. do the grid-template-areas thing where you can make the boxes out of words. 
 make boxes with grid-area: thingy and then "thingy" will be the box you want
