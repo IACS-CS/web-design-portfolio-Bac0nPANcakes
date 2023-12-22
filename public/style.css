@@ -5,13 +5,48 @@ body {
   background-color: rgb(255, 131, 193);
 }
 
+
+main {
+ display:grid;
+
+grid-template-areas: 
+'hero      hero    hero'
+'info      info    jump_menu'
+'cyoa      words1  jump_menu'
+'garden    words2  jump_menu';
+}
+
+
 h1 {
   display:flex;
   justify-content: center;
   font-family: "Comic Sans MS";
   font-size: xxx-large;
-  
+  grid-area: hero;
 }
+
+.info{
+  grid-area:info;
+}
+.side_menu{
+  grid-area:jump_menu;
+}
+
+.cyoa{
+  grid-area:cyoa;
+}
+
+.words1{
+  grid-area:words1;
+}
+
+.garden{
+  grid-area:garden;
+}
+.words2{
+  grid-area:words2;
+}
+
 
 
 
@@ -36,10 +71,10 @@ h1 {
 make boxes with grid-area: thingy and then "thingy" will be the box you want
 then do something like 
 
-title     title   title
-me        me      jump_menu
-CYOA      words1  jump_menu
-Garden    words2  jump_menu
+hero      hero    hero
+info      info    jump_menu
+cyoa      words1  jump_menu
+garden    words2  jump_menu
 
 and it'll work like magic and you'll have boxes. and you can space the margins
 in percentages so that it shrinks and grows better. yippee!
