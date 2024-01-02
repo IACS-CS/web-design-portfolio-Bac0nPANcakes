@@ -5,11 +5,12 @@ and what you have yet to complete.
 2. [X] figure out how to save changes
 3. [ ] color scheme and basic theme
 4. [ ] heading and tagline??
-5. [ ] basic layout plotted out / written down
-6. [ ] about me written
-7. [ ] add flair to the about me (images, colors, comic sans ms, etc.)
-8. [ ] links to the works in place
-9. [ ] make links work
-10. [ ] images of the works in place
-11. [ ] make images work
-12. [ ] add java script silliness
+5. [X] basic layout plotted out / written down
+6. [ ] relearn grid stuff with game and do layout with knowledge
+7. [X] about me written
+8. [ ] add flair to the about me (images, colors, comic sans ms, etc.)
+9. [ ] links to the works in place
+10. [ ] make links work
+11. [ ] images of the works in place
+12. [ ] make images work
+13. [ ] add java script silliness
