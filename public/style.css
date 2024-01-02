@@ -19,7 +19,6 @@ grid-template-areas:
 
 
 .hero {
-  
   font-family: "Comic Sans MS";
   font-size: xxx-large;
   grid-area: hero;
