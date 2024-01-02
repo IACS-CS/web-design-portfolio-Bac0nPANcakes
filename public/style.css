@@ -13,7 +13,8 @@ grid-template-areas:
 'hero      hero    hero'
 'info      info    jump_menu'
 'cyoa      words1  jump_menu'
-'garden    words2  jump_menu';
+'garden    words2  jump_menu'
+'colors    colors  jump_menu';
 }
 
 
@@ -48,7 +49,10 @@ h1 {
 }
 
 
-
+.color_test{
+  grid-area:colors;
+  margin-top: 50px;
+}
 
 .pan_pink {
   background-color: #F62089
