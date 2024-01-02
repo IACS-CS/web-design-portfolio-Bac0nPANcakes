@@ -18,12 +18,13 @@ grid-template-areas:
 }
 
 
-h1 {
-  display:flex;
-  justify-content: center;
+.hero {
+  
   font-family: "Comic Sans MS";
   font-size: xxx-large;
   grid-area: hero;
+  display:flex;
+  justify-content:center;
 }
 
 .info{
