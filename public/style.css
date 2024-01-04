@@ -17,6 +17,12 @@ grid-template-areas:
 'colors    colors  jump_menu';
 }
 
+h2 {
+color:#F62089;
+}
+
+
+
 
 .hero {
   font-family: "Comic Sans MS";
