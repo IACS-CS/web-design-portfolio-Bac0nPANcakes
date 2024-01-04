@@ -14,3 +14,7 @@ and what you have yet to complete.
 11. [ ] images of the works in place
 12. [ ] make images work
 13. [ ] add java script silliness
+
+
+find the typeface you used for the css zen garden and use it for the portfolio 
+also use comic sans for headings
