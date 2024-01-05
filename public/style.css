@@ -8,6 +8,10 @@ body {
   background-color: rgb(255, 131, 193);
 }
 
+/* use the yellow and blue from the pan flag somewhere in the portfolio.
+only having pink is boring and the other colors will seem out of place
+when the pride flag is shown via JS shenanigans
+*/
 
 main {
  display:grid;
