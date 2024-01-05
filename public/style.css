@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+
 body {
   /* Change to something you like, but please do customize the font! */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -12,13 +15,18 @@ main {
 grid-template-areas: 
 'hero      hero    hero'
 'info      info    jump_menu'
-'cyoa      words1  jump_menu'
-'garden    words2  jump_menu'
-'colors    colors  jump_menu';
+'cyoa      words1  words1'
+'garden    words2  words2'
+'colors    colors  colors';
+
+/*grid-template-columns: 1fr 2fr 1fr; */
+
+font-family: "Playpen Sans";
 }
 
 h2 {
 color:#F62089;
+font-family: "Comic Sans MS";
 }
 
 
@@ -41,6 +49,7 @@ color:#F62089;
 
 .cyoa{
   grid-area:cyoa;
+  font-family: "Playpen Sans";
 }
 
 .words1{
@@ -76,6 +85,41 @@ color:#F62089;
   background-color: rgb(255, 131, 193);
   color: #F62089
 }
+
+@media screen and (max-width: 800px) {
+  .everything {
+    font-size: 16px;
+    
+  }  
+}
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+  .everything {
+    font-size: 18px;
+    
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .everything {
+    font-size: 20px;
+    
+  }
+}
+
+@media screen and (max-width: 1660px) and (min-width: 1441px) {
+  .everything {
+    font-size: 22px;
+    
+  }
+}
+
+@media screen and (min-width: 1661px) {
+  .everything {
+    font-size: 24px;
+    
+  }
+}
+
+
 
 /*  ok,so. do the grid-template-areas thing where you can make the boxes out of words. 
 make boxes with grid-area: thingy and then "thingy" will be the box you want
