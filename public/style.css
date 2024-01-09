@@ -44,6 +44,7 @@ font-family: "Comic Sans MS";
   grid-area: hero;
   display:flex;
   justify-content:center;
+  /* find out how to get a pan flag into the background of this grid space thingy */
 }
 
 .info{
