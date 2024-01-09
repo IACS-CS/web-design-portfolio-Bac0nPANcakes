@@ -3,10 +3,10 @@ and what you have yet to complete.
 
 1. [ ] Make your ininitial TODO list...
 2. [X] figure out how to save changes
-3. [ ] color scheme and basic theme
+3. [X] color scheme and basic theme
 4. [ ] heading and tagline??
 5. [X] basic layout plotted out / written down
-6. [ ] relearn grid stuff with game and do layout with knowledge
+6. [X] relearn grid stuff with game and do layout with knowledge
 7. [X] about me written
 8. [ ] add flair to the about me (images, colors, comic sans ms, etc.)
 9. [ ] links to the works in place
