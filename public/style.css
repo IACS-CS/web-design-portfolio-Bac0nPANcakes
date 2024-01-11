@@ -24,7 +24,8 @@ grid-template-areas:
 'cyoa      words1  words1'
 'garden    words2  words2'
 'colors    colors  colors';
-
+ row-gap: 40px;
+ column-gap: 2%;
 /*grid-template-columns: 1fr 2fr 1fr; */
 margin-left: 4%;
   margin-right: 4%;
