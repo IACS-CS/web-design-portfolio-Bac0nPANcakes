@@ -47,7 +47,14 @@ font-family: "Comic Sans MS";
   display:flex;
   justify-content:center;
   text-align: center;
+ 
+  /* Mr. Hinkle helped me with the stripes! Thanks so much!!*/
+  --w: 20px;
   /* find out how to get a pan flag into the background of this grid space thingy */
+  box-shadow: 
+  0 calc(var(--w)*1)  #F62089,
+  0 calc(var(--w)*2)  #F7D100,
+  0 calc(var(--w)*3)  #21ABF7;
 }
 
 .info{
