@@ -6,6 +6,8 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   line-height: 1.4;
   background-color: rgb(255, 131, 193);
+  display:flex;
+  justify-content: center;
 }
 
 /* use the yellow and blue from the pan flag somewhere in the portfolio.
@@ -31,7 +33,7 @@ grid-template-areas:
 margin-left: 4%;
   margin-right: 4%;
 
-  max-width: 1440px;
+  max-width: 1240px;
 font-family: "Playpen Sans";
 }
 
