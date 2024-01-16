@@ -50,6 +50,10 @@ a:visited {
   color: #1191d6
 }
 
+.comic_sans {
+  font-family: "Comic Sans MS"
+}
+
 .hero {
   font-family: "Comic Sans MS";
   font-size: xxx-large;
