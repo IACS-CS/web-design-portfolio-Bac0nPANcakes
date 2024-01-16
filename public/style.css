@@ -42,8 +42,13 @@ color:#F62089;
 font-family: "Comic Sans MS";
 }
 
-
-
+a {
+  color: #F7D100;
+  
+}
+a:visited {
+  color: #1191d6
+}
 
 .hero {
   font-family: "Comic Sans MS";
