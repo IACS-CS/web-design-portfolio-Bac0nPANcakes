@@ -1,5 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+
 body {
   /* Change to something you like, but please do customize the font! */
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   line-height: 1.4;
+  background-color: rgb(255, 131, 193);
+  display:flex;
+  justify-content: center;
 }
+
+/* use the yellow and blue from the pan flag somewhere in the portfolio.
+only having pink is boring and the other colors will seem out of place
+when the pride flag is shown via JS shenanigans
+
+maybe have the max width be 1024px for the text so it's less ugly. Play around with it
+so your viewers won't gag from something that isn't the Comic Sans MS lol
+*/
+
+main {
+ display:grid;
+
+grid-template-areas: 
+'hero      hero    hero'
+'info      info    jump_menu'
+'cyoa      words1  words1'
+'garden    words2  words2'
+'colors    colors  colors';
+ row-gap: 40px;
+ column-gap: 3%;
+/*grid-template-columns: 1fr 2fr 1fr; */
+margin-left: 4%;
+  margin-right: 4%;
+
+  max-width: 1240px;
+font-family: "Playpen Sans";
+}
+
+h2 {
+color:#F62089;
+font-family: "Comic Sans MS";
+}
+
+a {
+  color: #F7D100;
+  
+}
+a:visited {
+  color: #1191d6
+}
+
+.hell {
+  font-family: "Comic Sans MS"
+}
+
+.hero {
+  font-family: "Comic Sans MS";
+  font-size: xxx-large;
+  grid-area: hero;
+  display:flex;
+  justify-content:center;
+  text-align: center;
+ 
+  /* Mr. Hinkle helped me with the stripes! Thanks so much!!*/
+  --w: 20px;
+  /* find out how to get a pan flag into the background of this grid space thingy */
+  box-shadow: 
+  0 calc(var(--w)*1)  #F62089,
+  0 calc(var(--w)*2)  #F7D100,
+  0 calc(var(--w)*3)  #21ABF7;
+}
+
+.info{
+  grid-area:info;
+}
+.side_menu{
+  grid-area:jump_menu;
+}
+
+.cyoa{
+  grid-area:cyoa;
+  font-family: "Playpen Sans";
+}
+
+.words1{
+  grid-area:words1;
+}
+
+.garden{
+  grid-area:garden;
+}
+.words2{
+  grid-area:words2;
+}
+
+
+.color_test{
+  grid-area:colors;
+  margin-top: 50px;
+}
+
+.pan_pink {
+  background-color: #F62089
+}
+
+.yellow {
+  background-color: #F7D100
+}
+
+.blue {
+  background-color: #21ABF7
+}
+
+.pink {
+  background-color: rgb(255, 131, 193);
+  color: #F62089
+}
+
+@media screen and (max-width: 800px) {
+  .everything {
+    font-size: 16px;
+    
+  }  
+}
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+  .everything {
+    font-size: 18px;
+    
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .everything {
+    font-size: 20px;
+    
+  }
+}
+
+@media screen and (max-width: 1660px) and (min-width: 1441px) {
+  .everything {
+    font-size: 22px;
+    
+  }
+}
+
+@media screen and (min-width: 1661px) {
+  .everything {
+    font-size: 24px;
+    
+  }
+}
+
+
+
+/*  ok,so. do the grid-template-areas thing where you can make the boxes out of words. 
+make boxes with grid-area: thingy and then "thingy" will be the box you want
+then do something like 
+
+hero      hero    hero
+info      info    jump_menu
+cyoa      words1  jump_menu
+garden    words2  jump_menu
+
+and it'll work like magic and you'll have boxes. and you can space the margins
+in percentages so that it shrinks and grows better. yippee!
+*/
